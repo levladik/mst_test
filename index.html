@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <title>EstateEase</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" >
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin >
+    <link
+      href="https://fonts.googleapis.com/css2?family=Prata&display=swap"
+      rel="stylesheet"
+    >
+    <!-- Fonts -->
+    <link rel="stylesheet" href="./styles.css" >
+  </head>
+  <body>
+    <header>
+      <div class="header__left">
+        <nav class="header__nav nav__wrapper">
+          <div class="header__logo">EstateEase</div>
+          <button class="burger-menu" aria-label="Open menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+          <ul class="header__nav-menu-list">
+            <li class="header__nav-menu-item"><a class="nav__link">Apartments</a></li>
+            <li class="header__nav-menu-item"><a class="nav__link">Houses</a></li>
+            <li class="header__nav-menu-item"><a class="nav__link">Commercial</a></li>
+          </ul>
+        </nav>
+        <div class="hero wrapper">
+          <div class="hero__info">
+            <h1 class="hero__title">Invest in Real Estate</h1>
+            <h2 class="hero__subtitle">a reliable way to preserve capital</h2>
+            <ul class="hero__info-list">
+              <li class="hero__info-item">
+                Apartments from <span>$50,000</span> in the city center.
+              </li>
+              <li class="hero__info-item">
+                <span>20%</span> rental yield.
+              </li>
+              <li class="hero__info-item">
+                Houses with up to <span>15%</span> discount.
+              </li>
+            </ul>
+            <button class="hero__button btn">Learn more</button>
+          </div>
+        </div>
+      </div>
+      <div class="hero__img">
+        <img src="./assets/images/1.jpeg" alt="Real estate image" >
+      </div>
+    </header>
+
+    <section class="advantages">
+      <div class="advantages__wrapper">
+        <img
+          class="advantages__image advantages__image--left"
+          src="./assets/images/2.jpeg"
+          alt="Investment growth chart"
+        >
+        <div class="advantages__content">
+          <ul class="advantages__list">
+            <li class="advantages__item">
+              Buying real estate is the best way to protect against inflation.
+            </li>
+            <li class="advantages__item">
+              A wide range of properties: from studios to luxury villas.
+            </li>
+            <li class="advantages__item">
+              Commercial real estate provides stable income and long-term investments.
+              </li>
+              
+              <li class="advantages__item">
+                Reliable developers and guarantees of legal transaction clarity.
+              </li>
+          </ul>
+          <button class="advantages__button btn">Submit an application</button>
+        </div>
+        <img
+          class="advantages__image advantages__image--right"
+          src="./assets/images/3.jpeg"
+          alt="Investment allocation scheme"
+        >
+      </div>
+    </section>
+
+    <section class="form form__wrapper">
+      <form action="#" method="post">
+        <div class="form-input__wrapper">
+          <h2 class="form__header">Leave a request for consultation</h2>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Your name"
+            class="form__input"
+            required
+          >
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Your email"
+            class="form__input"
+            required
+          >
+          <label class="form__checkbox-label">
+            <input type="checkbox" name="privacy" required >
+            I accept the privacy policy
+          </label>
+          <button type="submit" class="btn btn-black form__button">
+            Submit request
+          </button>
+        </div>
+      </form>
+      <div class="form__img">
+        <img src="./assets/images/4.jpeg" alt="Request form" >
+        <img src="./assets/images/photo_2023-11-03.png" alt="Consultation process illustration" >
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer__menu">
+        <a class="footer__link" href="">Apartments</a>
+        <a class="footer__link" href="">Houses</a>
+        <a class="footer__link" href="">Commercial</a>
+      </div>
+      <div class="footer__info wrapper">
+        <div class="footer__left">
+          <p class="footer__logo">EstateEase</p>
+          <p class="copyright">© 2024, Copyright.</p>
+        </div>
+        <div class="footer__center">
+          <div class="footer__center_socials">
+            <img class="footer__icon" src="./assets/icons/ig.svg" alt="Instagram icon" >
+            <img class="footer__icon" src="./assets/icons/fb.svg" alt="Facebook icon" >
+            <img class="footer__icon" src="./assets/icons/li.svg" alt="LinkedIn icon" >
+            <img class="footer__icon" src="./assets/icons/tg.svg" alt="Telegram icon" >
+            <img class="footer__icon" src="./assets/icons/tt.svg" alt="TikTok icon" >
+            <img class="footer__icon" src="./assets/icons/yt.svg" alt="YouTube icon" >
+          </div>
+          <div class="footer__social_policy">Privacy policy</div>
+        </div>
+        <div class="footer__right">
+          <button class="btn footer__btn">Submit request</button>
+          <div class="footer__terms">Terms of use</div>
+        </div>
+      </div>
+    </footer>
+    <script src="./index.js"></script>
+  </body>
+</html>
