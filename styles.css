@@ -151,6 +151,8 @@ header {
 
 .hero__img {
   overflow: hidden;
+  max-width: 50%;
+  max-height: 100vh;
 }
 
 .hero__img_mob {
