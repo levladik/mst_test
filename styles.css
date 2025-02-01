@@ -114,6 +114,7 @@ header {
 
 .hero__info {
   display: flex;
+  margin-top: 70px;
   gap: 50px;
   flex-direction: column;
   justify-content: space-between;
